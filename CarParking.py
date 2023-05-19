@@ -27,6 +27,7 @@ while True:
      #   cv2.rectangle(img, pos, (pos[0]+width, pos[1]+height), (0, 255, 0), 2)
     #cv2.rectangle(img,(480,480),(545,350),(0,255,0),2)
     #cv2.rectangle(img, (108, 205), (135, 265), (0, 255, 0), 2)
+    #function for creating the bounding box if it already does not exist already
     for pos in posList:
        cv2.rectangle(img, pos, (pos[0]+width, pos[1]+height),(0, 255, 0), 2)
     cv2.imshow("Image", img)
