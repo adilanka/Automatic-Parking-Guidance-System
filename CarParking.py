@@ -1,7 +1,7 @@
 import cv2
 import pickle
 #defining the bounding box dimensions.
-width, height = 60,50
+width, height = 130,120
 #opening the ParkingSpotPOS.pickle file if it exists or creating a new array to save the x and y coordinates.
 try:
     with open('ParkingSpotPOS','rb') as f:
@@ -22,7 +22,7 @@ def mouseClick(events, x, y, flags, params):
         pickle.dump(posList, f)
 
 while True:
-    img = cv2.imread('Img1.jpg')
+    img = cv2.imread('img2.jpg')
     #for pos in posList:
      #   cv2.rectangle(img, pos, (pos[0]+width, pos[1]+height), (0, 255, 0), 2)
     #cv2.rectangle(img,(480,480),(545,350),(0,255,0),2)
