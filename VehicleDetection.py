@@ -5,7 +5,7 @@ import cvzone
 
 #Reading the video using OpenCV
 cap = cv2.VideoCapture(r'C:\Users\Aditya Lanka\PycharmProjects\ParkingSpaceDetector\PV1.mp4')
-
+#Loading the pickle file made in the CarParking.py
 with open('ParkingSpotPOS', 'rb') as f:
     posList = pickle.load(f)
 
