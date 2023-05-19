@@ -33,11 +33,11 @@ Python Modules used: -
 
 <li> OpenCV
 
-• CV Zone
+<li> CV Zone
 
-• Pickle
+<li> Pickle
 
-Parking Spot Detection
+<b>Parking Spot Detection</b>
 
 The first step would be deciding the bounds of the box used to map the parking spot in the image. 
 
@@ -45,7 +45,7 @@ After that, we need to left click on each parking spot to select the area and sa
 
 the pickle file. We can delete the wrongly selected places by right clicking in the box.
 
-Vehicle Detection using video and image
+<b>Vehicle Detection using video and image</b>
 
 First the marked spots are separated and then we apply Gaussian Blur and adaptive thresholding to 
 
