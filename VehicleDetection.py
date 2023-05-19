@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 import cvzone
 
+#Reading the video using OpenCV
 cap = cv2.VideoCapture(r'C:\Users\Aditya Lanka\PycharmProjects\ParkingSpaceDetector\PV1.mp4')
 
 with open('ParkingSpotPOS', 'rb') as f:
