@@ -8,7 +8,7 @@ try:
         posList = pickle.load(f)
 except:
     posList = []
-
+#defining the mouseClick events to create and delete the bounding box made by the user
 def mouseClick(events, x, y, flags, params):
      if events == cv2.EVENT_LBUTTONDOWN:
          posList.append((x,y))
