@@ -17,7 +17,7 @@ def mouseClick(events, x, y, flags, params):
              x1, y1 = pos
              if x1<x<x1+width and y1<y<y1+height:
                  posList.pop(i)
-
+#dumping all the bounding boxes made by the user in the ParkingSpotPOS file
      with open('ParkingSpotPOS','wb') as f:
         pickle.dump(posList, f)
 
