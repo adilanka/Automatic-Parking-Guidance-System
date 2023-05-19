@@ -22,7 +22,7 @@ def mouseClick(events, x, y, flags, params):
         pickle.dump(posList, f)
 
 while True:
-    img = cv2.imread('img3.jpg')
+    img = cv2.imread('PV1_image.jpg')
     #for pos in posList:
      #   cv2.rectangle(img, pos, (pos[0]+width, pos[1]+height), (0, 255, 0), 2)
     #cv2.rectangle(img,(480,480),(545,350),(0,255,0),2)
