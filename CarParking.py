@@ -2,6 +2,7 @@ import cv2
 import pickle
 #defining the bounding box dimensions.
 width, height = 60,50
+#opening the ParkingSpotPOS.pickle file if it exists or creating a new array to save the x and y coordinates.
 try:
     with open('ParkingSpotPOS','rb') as f:
         posList = pickle.load(f)
