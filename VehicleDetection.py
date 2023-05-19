@@ -9,7 +9,7 @@ cap = cv2.VideoCapture(r'C:\Users\Aditya Lanka\PycharmProjects\ParkingSpaceDetec
 with open('ParkingSpotPOS', 'rb') as f:
     posList = pickle.load(f)
 
-width, height = 120,130
+width, height = 60,50
 
 def checkParkingSpace(imgProcessed):
     SpaceCounter = 0
