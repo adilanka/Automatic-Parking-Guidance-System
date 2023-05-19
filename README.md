@@ -15,7 +15,9 @@ like parking, security etc (Similar to a play store but we will use a website.).
 be making is the Automatic Parking Guidance system. Our objective with this bot is to make an
 affordable way to make parking lots easier to navigate and use. Thus, making the overall parking
 experience more convenient for the user.
-Working Principle
+<br>
+
+<b>Working Principle</b>
 
 The bot uses OpenCV and CVZone in combination to detect parking spots and also for checking 
 
@@ -29,7 +31,7 @@ it has been created and saved.
 
 Python Modules used: -
 
-• OpenCV
+<li> OpenCV
 
 • CV Zone
 
