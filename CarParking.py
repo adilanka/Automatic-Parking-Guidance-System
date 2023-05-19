@@ -1,6 +1,6 @@
 import cv2
 import pickle
-
+#defining the bounding box dimensions.
 width, height = 60,50
 try:
     with open('ParkingSpotPOS','rb') as f:
