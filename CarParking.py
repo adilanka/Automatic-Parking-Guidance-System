@@ -1,7 +1,7 @@
 import cv2
 import pickle
 
-width, height = 27, 65
+width, height = 60,50
 try:
     with open('ParkingSpotPOS','rb') as f:
         posList = pickle.load(f)
@@ -21,7 +21,7 @@ def mouseClick(events, x, y, flags, params):
         pickle.dump(posList, f)
 
 while True:
-    img = cv2.imread('PV1_image.jpg')
+    img = cv2.imread('Img1.jpg')
     #for pos in posList:
      #   cv2.rectangle(img, pos, (pos[0]+width, pos[1]+height), (0, 255, 0), 2)
     #cv2.rectangle(img,(480,480),(545,350),(0,255,0),2)
