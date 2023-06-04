@@ -54,3 +54,6 @@ the image to reduce the noise which might be there in the image or the video and
 into the background or foreground. Then using pixel count for the foreground pixels, we determine 
 
 whether the spot has a vehicle or not.
+
+![image](https://github.com/adilanka/Automatic-Parking-Guidance-System/assets/87301182/47804572-46c9-4c9e-a5d7-2bda9fde7b1e)
+This images is the result for CarParking.py
