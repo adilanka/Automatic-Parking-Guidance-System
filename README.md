@@ -56,4 +56,13 @@ into the background or foreground. Then using pixel count for the foreground pix
 whether the spot has a vehicle or not.
 
 ![image](https://github.com/adilanka/Automatic-Parking-Guidance-System/assets/87301182/47804572-46c9-4c9e-a5d7-2bda9fde7b1e)
-This images is the result for CarParking.py
+<br>
+This images is the result for CarParking.py for detecting the parking spots
+<br>
+![image](https://github.com/adilanka/Automatic-Parking-Guidance-System/assets/87301182/c4bd0435-3254-4280-bcf7-c63591881b02)
+<br>
+This the result for Vehicle Detection using Video
+<br>
+ ![image](https://github.com/adilanka/Automatic-Parking-Guidance-System/assets/87301182/92805109-599a-4dcc-aacc-789885b272a7)
+<br>
+  This is the result for Vehicle Detection using Imgaes
